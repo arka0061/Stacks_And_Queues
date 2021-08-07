@@ -53,5 +53,6 @@ namespace StacksAndQueues
             Console.WriteLine("Value popped is {0}", this.top.data);
             this.top = this.top.next;
         }
+       
     }
 }
