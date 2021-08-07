@@ -11,6 +11,10 @@ namespace StacksAndQueues
             stack.Push(70);
             stack.Push(30);
             stack.Push(56);
+            Console.WriteLine("Original stack is :");
+            stack.Display();
+            Console.WriteLine("\n"+"Stack after pop operation : ");
+            stack.Pop();
             stack.Display();
             stack.Peek();
         }
